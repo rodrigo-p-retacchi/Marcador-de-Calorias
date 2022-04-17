@@ -1,3 +1,3 @@
 # Marcador de Calorias
 
-Multi modular app. Compose jetpack. Kotlin. Clean Arquitecture.
+Multi modular app. Jetpack Compose. Kotlin. Clean Arquitecture.
