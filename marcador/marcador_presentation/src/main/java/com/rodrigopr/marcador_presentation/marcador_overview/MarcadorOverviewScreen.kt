@@ -58,7 +58,10 @@ fun MarcadorOverviewScreen(
                             .fillMaxWidth()
                             .padding(horizontal = spacing.spaceSmall)
                     ) {
-                        state.marcadasFoods.forEach { food ->
+                        val foods = state.marcadasFoods.filter {
+                            it.mealType == meal.mealType
+                        }
+                        foods.forEach { food ->
                             MarcadaFoodItem(
                                 marcadafood = food,
                                 onDeleteClick = {
